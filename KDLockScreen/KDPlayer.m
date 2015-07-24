@@ -225,7 +225,7 @@
     playingInfo[MPMediaItemPropertyTitle] = aTitle;
     playingInfo[MPMediaItemPropertyArtist] = aArtist;
     playingInfo[MPMediaItemPropertyPlaybackDuration] = @(aTotalDuration.doubleValue);
-    MPMediaItemArtwork *albumArt = [[MPMediaItemArtwork alloc] initWithImage:[UIImage imageNamed:@"dddj"]];
+    MPMediaItemArtwork *albumArt = [[MPMediaItemArtwork alloc] initWithImage:[UIImage imageNamed:@"ruyan"]];
     playingInfo[MPMediaItemPropertyArtwork]=albumArt;
     playingInfo[MPMediaItemPropertyPodcastTitle]=@"测试而已";
     [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = playingInfo;

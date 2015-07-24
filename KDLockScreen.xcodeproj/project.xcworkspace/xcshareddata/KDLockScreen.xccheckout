@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>793F3936-515B-41FA-962F-1CF8F0FACD2F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KDLockScreen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4109F4DB854BF50583D75A0D05148B180DE32EFB</key>
+		<string>https://github.com/kangwang1988/KDLockScreen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KDLockScreen.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4109F4DB854BF50583D75A0D05148B180DE32EFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kangwang1988/KDLockScreen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4109F4DB854BF50583D75A0D05148B180DE32EFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4109F4DB854BF50583D75A0D05148B180DE32EFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KDLockScreen</string>
+		</dict>
+	</array>
+</dict>
+</plist>

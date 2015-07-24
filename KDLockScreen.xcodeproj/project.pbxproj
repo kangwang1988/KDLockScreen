@@ -13,9 +13,9 @@
 		29CDC78A1B4568B00002943F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CDC7891B4568B00002943F /* Images.xcassets */; };
 		29CDC78D1B4568B00002943F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CDC78B1B4568B00002943F /* LaunchScreen.xib */; };
 		29CDC7991B4568B00002943F /* KDLockScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CDC7981B4568B00002943F /* KDLockScreenTests.m */; };
-		29CDC7A51B456D760002943F /* dddj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29CDC7A31B456D760002943F /* dddj.mp3 */; };
-		29CDC7A61B456D760002943F /* dddj.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CDC7A41B456D760002943F /* dddj.png */; };
 		29CDC7A91B456F0A0002943F /* KDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CDC7A81B456F0A0002943F /* KDPlayer.m */; };
+		29ED77191B61E8ED0013168E /* ruyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29ED77171B61E8ED0013168E /* ruyan.mp3 */; };
+		29ED771E1B61EB7E0013168E /* ruyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 29ED771D1B61EB7E0013168E /* ruyan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 		29CDC7921B4568B00002943F /* KDLockScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDLockScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CDC7971B4568B00002943F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29CDC7981B4568B00002943F /* KDLockScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDLockScreenTests.m; sourceTree = "<group>"; };
-		29CDC7A31B456D760002943F /* dddj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dddj.mp3; sourceTree = "<group>"; };
-		29CDC7A41B456D760002943F /* dddj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dddj.png; sourceTree = "<group>"; };
 		29CDC7A71B456F0A0002943F /* KDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDPlayer.h; sourceTree = "<group>"; };
 		29CDC7A81B456F0A0002943F /* KDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDPlayer.m; sourceTree = "<group>"; };
+		29ED77171B61E8ED0013168E /* ruyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ruyan.mp3; sourceTree = "<group>"; };
+		29ED771D1B61EB7E0013168E /* ruyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruyan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		29CDC7701B4568B00002943F = {
 			isa = PBXGroup;
 			children = (
-				29CDC7A21B456D760002943F /* Resource */,
+				29ED77161B61E8ED0013168E /* Resource */,
 				29CDC77B1B4568B00002943F /* KDLockScreen */,
 				29CDC7951B4568B00002943F /* KDLockScreenTests */,
 				29CDC77A1B4568B00002943F /* Products */,
@@ -126,11 +126,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		29CDC7A21B456D760002943F /* Resource */ = {
+		29ED77161B61E8ED0013168E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				29CDC7A31B456D760002943F /* dddj.mp3 */,
-				29CDC7A41B456D760002943F /* dddj.png */,
+				29ED771D1B61EB7E0013168E /* ruyan.png */,
+				29ED77171B61E8ED0013168E /* ruyan.mp3 */,
 			);
 			name = Resource;
 			path = KDLockScreen/Resource;
@@ -217,9 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CDC78D1B4568B00002943F /* LaunchScreen.xib in Resources */,
-				29CDC7A51B456D760002943F /* dddj.mp3 in Resources */,
 				29CDC78A1B4568B00002943F /* Images.xcassets in Resources */,
-				29CDC7A61B456D760002943F /* dddj.png in Resources */,
+				29ED77191B61E8ED0013168E /* ruyan.mp3 in Resources */,
+				29ED771E1B61EB7E0013168E /* ruyan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +435,7 @@
 				29CDC79E1B4568B00002943F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29CDC79F1B4568B00002943F /* Build configuration list for PBXNativeTarget "KDLockScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				29CDC7A11B4568B00002943F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

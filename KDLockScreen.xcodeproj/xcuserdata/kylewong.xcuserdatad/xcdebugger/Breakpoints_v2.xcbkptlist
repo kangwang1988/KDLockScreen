@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KDLockScreen/ViewController.m"
-            timestampString = "457542571.257082"
+            timestampString = "459401626.261402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-remoteControlReceivedWithEvent:"
             landmarkType = "5">
          </BreakpointContent>

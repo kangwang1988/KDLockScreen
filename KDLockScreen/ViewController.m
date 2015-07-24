@@ -21,6 +21,13 @@
     return self;
 }
 
+- (instancetype)init{
+    if(self = [super init]){
+        [self commonInit];
+    }
+    return self;
+}
+
 - (void)loadView{
     UIScreen *screen = [UIScreen mainScreen];
     UIView *view = [[UIView alloc] initWithFrame:screen.bounds];
@@ -69,8 +76,8 @@
 
 - (IBAction)onPlayButtonPressed:(id)sender{
     [self.player setDelegate:self];
-    [self.player loadMusicWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"dddj" ofType:@"mp3"]]];
-    [self.player loadWithTitle:@"嘀嘀代驾" artist:@"嘀嘀打车" albumTitle:@"你有新订单了"];
+    [self.player loadMusicWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"ruyan" ofType:@"mp3"]]];
+    [self.player loadWithTitle:@"如烟" artist:@"五月天" albumTitle:@"有没有那么一滴眼泪"];
     [self.player play];
 }
 
