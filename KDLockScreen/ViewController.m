@@ -5,7 +5,6 @@
 //  Created by KyleWong on 15/7/2.
 //  Copyright (c) 2015年 KyleWong. All rights reserved.
 //
-
 #import "ViewController.h"
 #import "KDPlayer.h"
 
